@@ -1,0 +1,16 @@
+Apr 18 11:52:57.786 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 11:52:57.787 HYPERVISOR: Started on IP = localhost, TCP port = 56371.
+Apr 18 11:52:58.238 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 11:52:58.239 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips 
+Apr 18 11:52:58.239 GENERAL: working_dir=C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips
+Apr 18 11:52:58.239 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Apr 18 11:53:04.886 HYPERVISOR: exec_cmd: nio create_udp udp-a6e6c886-a805-43d1-be29-3a4fbca864fd 10000 127.0.0.1 10001 
+Apr 18 11:53:04.895 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-a6e6c886-a805-43d1-be29-3a4fbca864fd 
+Apr 18 11:53:04.897 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-a6e6c886-a805-43d1-be29-3a4fbca864fd 1 
+Apr 18 12:08:39.785 HYPERVISOR: exec_cmd: ethsw rename Switch1 192.168.2.0/24 
+Apr 18 12:08:39.786 HYPERVISOR: exec_cmd: ethsw set_access_port 192.168.2.0/24 udp-a6e6c886-a805-43d1-be29-3a4fbca864fd 1 
+Apr 18 12:08:39.864 HYPERVISOR: exec_cmd: ethsw set_access_port 192.168.2.0/24 udp-a6e6c886-a805-43d1-be29-3a4fbca864fd 1 
+Apr 18 12:50:29.545 HYPERVISOR: exec_cmd: ethsw delete 192.168.2.0/24 
+Apr 18 12:50:29.563 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 12:50:29.608 HYPERVISOR: Stopped.
+Apr 18 12:50:29.609 GENERAL: reset done.

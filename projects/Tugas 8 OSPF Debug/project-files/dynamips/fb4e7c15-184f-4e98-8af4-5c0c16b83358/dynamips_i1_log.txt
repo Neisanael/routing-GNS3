@@ -1,0 +1,78 @@
+Apr 18 13:27:48.027 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 13:27:48.028 HYPERVISOR: Started on IP = localhost, TCP port = 49928.
+Apr 18 13:27:48.325 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 13:27:48.326 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips 
+Apr 18 13:27:48.328 GENERAL: working_dir=C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips
+Apr 18 13:27:48.328 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\fb4e7c15-184f-4e98-8af4-5c0c16b83358 
+Apr 18 13:27:48.329 GENERAL: working_dir=C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\fb4e7c15-184f-4e98-8af4-5c0c16b83358
+Apr 18 13:27:48.329 HYPERVISOR: exec_cmd: vm create R2 1 c3600 
+Apr 18 13:27:48.330 VM: VM R2 created.
+Apr 18 13:27:48.331 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5000 
+Apr 18 13:27:48.332 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+Apr 18 13:27:48.332 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 18 13:27:48.333 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/nathanael/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Apr 18 13:27:48.333 HYPERVISOR: exec_cmd: c3600 set_mac_addr R2 cc01.6aa8.0000 
+Apr 18 13:27:48.333 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 18 13:27:48.334 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Apr 18 13:27:48.334 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 13:27:48.334 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 NM-4E 
+Apr 18 13:27:52.554 HYPERVISOR: exec_cmd: nio create_udp udp-8fd8acbb-2f58-44b2-8b25-549c1092837a 10002 127.0.0.1 10003 
+Apr 18 13:27:52.805 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-8fd8acbb-2f58-44b2-8b25-549c1092837a 
+Apr 18 13:27:52.806 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 13:27:52.837 HYPERVISOR: exec_cmd: nio create_udp udp-0358a3ed-3432-42c7-ba2f-1eac1eb022ec 10006 127.0.0.1 10007 
+Apr 18 13:27:52.842 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-0358a3ed-3432-42c7-ba2f-1eac1eb022ec 
+Apr 18 13:27:52.842 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 13:52:03.909 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 13:52:03.913 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 13:52:03.914 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 13:52:03.926 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 13:52:03.927 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 13:52:34.243 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 13:56:04.310 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:03:02.385 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:03:02.387 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 18 14:03:02.456 VM: VM R2 shutdown.
+Apr 18 14:03:02.457 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:03:54.434 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 14:03:54.435 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 14:03:54.436 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:03:54.445 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 14:03:54.445 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 14:18:25.003 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:27:01.148 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:27:01.150 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 18 14:27:01.292 VM: VM R2 shutdown.
+Apr 18 14:27:01.294 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:27:55.456 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 14:27:55.458 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 14:27:55.459 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:27:55.468 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 14:27:55.471 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 14:29:12.918 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:29:12.921 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 18 14:29:13.020 VM: VM R2 shutdown.
+Apr 18 14:29:13.022 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:31:25.974 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 14:31:25.976 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 14:31:25.977 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:31:25.986 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 14:31:25.986 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 14:32:58.461 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:32:58.464 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 18 14:32:58.599 VM: VM R2 shutdown.
+Apr 18 14:32:58.600 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:33:01.739 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 14:33:01.740 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 14:33:01.740 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:33:01.749 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 14:33:01.750 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 14:33:42.943 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:33:42.946 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 18 14:33:43.090 VM: VM R2 shutdown.
+Apr 18 14:33:43.090 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 18 14:34:05.414 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 18 14:34:05.416 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Apr 18 14:34:05.417 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 18 14:34:05.425 HYPERVISOR: exec_cmd: vm set_config R2 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Apr 18 14:34:05.426 HYPERVISOR: exec_cmd: vm start R2 
+Apr 18 14:39:05.794 HYPERVISOR: exec_cmd: vm extract_config R2 

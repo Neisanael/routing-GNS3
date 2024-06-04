@@ -1,0 +1,38 @@
+Mar 21 10:16:33.976 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 21 10:16:33.983 HYPERVISOR: Started on IP = localhost, TCP port = 55996.
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\GNS3\projects\Tugas 6 RIP Lanjut\project-files\dynamips 
+Mar 21 10:16:34.454 GENERAL: working_dir=C:\Users\Asus\GNS3\projects\Tugas 6 RIP Lanjut\project-files\dynamips
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\GNS3\projects\Tugas 6 RIP Lanjut\project-files\dynamips\d4c6ae41-17c0-4c95-8962-8d061571ca71 
+Mar 21 10:16:34.454 GENERAL: working_dir=C:\Users\Asus\GNS3\projects\Tugas 6 RIP Lanjut\project-files\dynamips\d4c6ae41-17c0-4c95-8962-8d061571ca71
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: vm create R3 3 c3600 
+Mar 21 10:16:34.454 VM: VM R3 created.
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5006 
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: c3600 get_mac_addr R3 
+Mar 21 10:16:34.454 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Asus/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: c3600 set_mac_addr R3 cc03.4c48.0000 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 NM-4E 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:34.469 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-4T 
+Mar 21 10:16:47.466 HYPERVISOR: exec_cmd: nio create_udp udp-90155189-d8e4-4562-a124-177b4d3de253 10026 127.0.0.1 10027 
+Mar 21 10:16:47.839 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-90155189-d8e4-4562-a124-177b4d3de253 
+Mar 21 10:16:47.839 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:48.528 HYPERVISOR: exec_cmd: nio create_udp udp-a1722dfd-9b31-4a68-985c-619ce62ee2f0 10032 127.0.0.1 10033 
+Mar 21 10:16:48.539 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-a1722dfd-9b31-4a68-985c-619ce62ee2f0 
+Mar 21 10:16:48.539 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:48.670 HYPERVISOR: exec_cmd: nio create_udp udp-2e5fee15-f5f6-4d11-a2e0-a95d96239c2f 10036 127.0.0.1 10037 
+Mar 21 10:16:48.681 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-2e5fee15-f5f6-4d11-a2e0-a95d96239c2f 
+Mar 21 10:16:48.681 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:48.787 HYPERVISOR: exec_cmd: nio create_udp udp-b75fa191-6f64-4295-a6b2-f0134a78f54e 10040 127.0.0.1 10041 
+Mar 21 10:16:48.787 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 2 udp-b75fa191-6f64-4295-a6b2-f0134a78f54e 
+Mar 21 10:16:48.787 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:59.634 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Mar 21 10:16:59.650 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\Asus\GNS3\projects\Tugas 6 RIP Lanjut\project-files\dynamips\c3640-ik9o3s-mz124-13.image-192.ghost 
+Mar 21 10:16:59.650 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 21 10:16:59.665 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Mar 21 10:16:59.665 HYPERVISOR: exec_cmd: vm start R3 
+Mar 21 10:17:29.982 HYPERVISOR: exec_cmd: vm extract_config R3 

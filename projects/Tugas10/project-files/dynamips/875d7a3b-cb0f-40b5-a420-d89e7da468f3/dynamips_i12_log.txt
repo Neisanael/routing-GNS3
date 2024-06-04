@@ -1,0 +1,13 @@
+2024-05-17T00:06:14.325Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2024-05-17T00:06:14.325Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50651.
+2024-05-17T00:06:14.331Z HYPERVISOR: exec_cmd: hypervisor version 
+2024-05-17T00:06:14.332Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips 
+2024-05-17T00:06:14.332Z GENERAL: working_dir=/home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips
+2024-05-17T00:06:14.332Z HYPERVISOR: exec_cmd: ethsw create 192.168.5.0/25 
+2024-05-17T00:06:18.241Z HYPERVISOR: exec_cmd: nio create_udp udp-5325a85a-960c-4f56-bcaf-4a8dd47b6036 10049 127.0.0.1 10048 
+2024-05-17T00:06:18.241Z HYPERVISOR: exec_cmd: ethsw add_nio 192.168.5.0/25 udp-5325a85a-960c-4f56-bcaf-4a8dd47b6036 
+2024-05-17T00:06:18.261Z HYPERVISOR: exec_cmd: ethsw set_access_port 192.168.5.0/25 udp-5325a85a-960c-4f56-bcaf-4a8dd47b6036 1 
+2024-05-17T00:14:56.274Z HYPERVISOR: exec_cmd: ethsw delete 192.168.5.0/25 
+2024-05-17T00:14:56.285Z HYPERVISOR: exec_cmd: hypervisor stop 
+2024-05-17T00:14:56.473Z HYPERVISOR: Stopped.
+2024-05-17T00:14:56.473Z GENERAL: reset done.

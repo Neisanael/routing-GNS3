@@ -1,0 +1,57 @@
+2024-05-17T00:06:14.426Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2024-05-17T00:06:14.427Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 46953.
+2024-05-17T00:06:14.433Z HYPERVISOR: exec_cmd: hypervisor version 
+2024-05-17T00:06:14.433Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips 
+2024-05-17T00:06:14.433Z GENERAL: working_dir=/home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips
+2024-05-17T00:06:14.434Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips/d280ba72-318b-4b26-a2cc-d08d2a3bb73e 
+2024-05-17T00:06:14.434Z GENERAL: working_dir=/home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips/d280ba72-318b-4b26-a2cc-d08d2a3bb73e
+2024-05-17T00:06:14.434Z HYPERVISOR: exec_cmd: vm create R7 7 c3600 
+2024-05-17T00:06:14.434Z VM: VM R7 created.
+2024-05-17T00:06:14.435Z HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5045 
+2024-05-17T00:06:14.435Z HYPERVISOR: exec_cmd: c3600 get_mac_addr R7 
+2024-05-17T00:06:14.435Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:06:14.435Z HYPERVISOR: exec_cmd: vm set_idle_pc R7 0x605d21c4 
+2024-05-17T00:06:14.436Z HYPERVISOR: exec_cmd: vm set_ios R7 /home/shiyaken/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+2024-05-17T00:06:14.436Z HYPERVISOR: exec_cmd: c3600 set_mac_addr R7 cc07.326c.0000 
+2024-05-17T00:06:14.436Z HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+2024-05-17T00:06:14.437Z HYPERVISOR: exec_cmd: vm set_ram R7 192 
+2024-05-17T00:06:14.437Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:06:14.437Z HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 0 NM-1FE-TX 
+2024-05-17T00:06:14.437Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:06:14.438Z HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-4E 
+2024-05-17T00:06:14.438Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:06:14.438Z HYPERVISOR: exec_cmd: vm slot_add_binding R7 2 0 NM-4T 
+2024-05-17T00:06:18.598Z HYPERVISOR: exec_cmd: nio create_udp udp-c2959b4c-d1df-4e50-9775-59248a1d8d72 10060 127.0.0.1 10061 
+2024-05-17T00:06:18.806Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 2 0 udp-c2959b4c-d1df-4e50-9775-59248a1d8d72 
+2024-05-17T00:06:18.807Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:06:18.981Z HYPERVISOR: exec_cmd: nio create_udp udp-ce8f6b95-e22a-4839-9ed9-47bf70063489 10064 127.0.0.1 10065 
+2024-05-17T00:06:18.982Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 0 udp-ce8f6b95-e22a-4839-9ed9-47bf70063489 
+2024-05-17T00:06:18.983Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:09:23.786Z HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+2024-05-17T00:09:23.787Z HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips/c3640-ik9o3s-mz124-13.image-192.ghost 
+2024-05-17T00:09:23.787Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:09:23.788Z HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+2024-05-17T00:09:23.788Z HYPERVISOR: exec_cmd: vm start R7 
+2024-05-17T00:09:54.033Z HYPERVISOR: exec_cmd: vm extract_config R7 
+2024-05-17T00:09:54.820Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:09:54.820Z HYPERVISOR: exec_cmd: vm stop R7 
+2024-05-17T00:09:54.925Z VM: VM R7 shutdown.
+2024-05-17T00:09:54.925Z HYPERVISOR: exec_cmd: vm extract_config R7 
+2024-05-17T00:10:31.491Z HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+2024-05-17T00:10:31.493Z HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/shiyaken/GNS3/projects/Tugas10/project-files/dynamips/c3640-ik9o3s-mz124-13.image-192.ghost 
+2024-05-17T00:10:31.495Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:10:31.498Z HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+2024-05-17T00:10:31.499Z HYPERVISOR: exec_cmd: vm start R7 
+2024-05-17T00:14:45.008Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:14:45.008Z HYPERVISOR: exec_cmd: vm stop R7 
+2024-05-17T00:14:45.106Z VM: VM R7 shutdown.
+2024-05-17T00:14:45.106Z HYPERVISOR: exec_cmd: vm extract_config R7 
+2024-05-17T00:14:56.225Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:14:56.227Z HYPERVISOR: exec_cmd: vm extract_config R7 
+2024-05-17T00:14:56.345Z HYPERVISOR: exec_cmd: vm get_status R7 
+2024-05-17T00:14:56.345Z HYPERVISOR: exec_cmd: vm extract_config R7 
+2024-05-17T00:14:56.346Z HYPERVISOR: exec_cmd: vm delete R7 
+2024-05-17T00:14:56.346Z VM: VM R7 destroyed.
+2024-05-17T00:14:56.346Z HYPERVISOR: exec_cmd: hypervisor stop 
+2024-05-17T00:14:56.586Z HYPERVISOR: Stopped.
+2024-05-17T00:14:56.586Z GENERAL: reset done.

@@ -1,0 +1,33 @@
+Apr 18 11:52:58.364 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 11:52:58.365 HYPERVISOR: Started on IP = localhost, TCP port = 56374.
+Apr 18 11:52:58.801 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 11:52:58.802 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips 
+Apr 18 11:52:58.802 GENERAL: working_dir=C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\dynamips
+Apr 18 11:52:58.802 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Apr 18 11:53:05.376 HYPERVISOR: exec_cmd: nio create_udp udp-e2c1d3f3-b4a1-47c8-a6c9-1c54b9ccae8b 10005 127.0.0.1 10004 
+Apr 18 11:53:05.377 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-e2c1d3f3-b4a1-47c8-a6c9-1c54b9ccae8b 
+Apr 18 11:53:05.392 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-e2c1d3f3-b4a1-47c8-a6c9-1c54b9ccae8b 1 
+Apr 18 11:53:05.463 HYPERVISOR: exec_cmd: nio create_udp udp-80ed42f3-4d13-4430-9816-a25aa0badfd8 10008 127.0.0.1 10009 
+Apr 18 11:53:05.464 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-80ed42f3-4d13-4430-9816-a25aa0badfd8 
+Apr 18 11:53:05.473 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-80ed42f3-4d13-4430-9816-a25aa0badfd8 1 
+Apr 18 11:53:06.194 HYPERVISOR: exec_cmd: nio create_udp udp-d4157c17-0c1d-4db3-ae26-799199b32526 10017 127.0.0.1 10016 
+Apr 18 11:53:06.194 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-d4157c17-0c1d-4db3-ae26-799199b32526 
+Apr 18 11:53:06.211 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-d4157c17-0c1d-4db3-ae26-799199b32526 1 
+Apr 18 11:53:06.379 HYPERVISOR: exec_cmd: nio create_udp udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 10024 127.0.0.1 10025 
+Apr 18 11:53:06.380 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 
+Apr 18 11:53:06.396 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 1 
+Apr 18 12:35:30.586 HYPERVISOR: exec_cmd: ethsw rename Switch2 1.0.0.0/24 
+Apr 18 12:35:30.587 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-e2c1d3f3-b4a1-47c8-a6c9-1c54b9ccae8b 1 
+Apr 18 12:35:30.587 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-80ed42f3-4d13-4430-9816-a25aa0badfd8 1 
+Apr 18 12:35:30.587 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-d4157c17-0c1d-4db3-ae26-799199b32526 1 
+Apr 18 12:35:30.588 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 1 
+Apr 18 12:35:30.658 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-e2c1d3f3-b4a1-47c8-a6c9-1c54b9ccae8b 1 
+Apr 18 12:35:30.658 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-80ed42f3-4d13-4430-9816-a25aa0badfd8 1 
+Apr 18 12:35:30.660 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-d4157c17-0c1d-4db3-ae26-799199b32526 1 
+Apr 18 12:35:30.660 HYPERVISOR: exec_cmd: ethsw set_access_port 1.0.0.0/24 udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 1 
+Apr 18 12:45:43.745 HYPERVISOR: exec_cmd: nio bind_filter udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 2 capture 
+Apr 18 12:45:43.746 HYPERVISOR: exec_cmd: nio setup_filter udp-cc2dc798-1ca3-4d9d-a5ff-30d73e450dd7 2 en10mb C:\Users\nathanael\GNS3\projects\Tugas 8 OSPF Debug\project-files\captures\100024_Ethernet3_to_R3_Ethernet00.pcap 
+Apr 18 12:50:29.545 HYPERVISOR: exec_cmd: ethsw delete 1.0.0.0/24 
+Apr 18 12:50:29.623 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 12:50:30.108 HYPERVISOR: Stopped.
+Apr 18 12:50:30.108 GENERAL: reset done.
